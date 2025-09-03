@@ -12,7 +12,7 @@ public class Hints {
     }
 
     public static void midHint() {
-        String base64 = "VGhlIHdvdW5kIG9uIHRoZSByaWdodCBzaWRlIGlzIGltcG9ydGFudCBldmlkZW5jZS4=";
+        String base64 = "UHVuY3R1cmUgd291bmRzIGFyZSBjYXVzZWQgYnkgcmVwZWF0ZWQgc3RhYmJpbmcu";
         String decoded = new String(Base64.getDecoder().decode(base64));
         System.out.println("""
                 -------------------------------------------------- 
